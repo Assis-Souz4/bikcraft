@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f7f7;
+  height: 1000px;
+}
+/* 
+  header
+*/
+.header {
+  text-align: center;
+  margin: 60px 0;
+}
+.header img {
+  display: inline-block;
+  max-width: 100%;
+}
+.menu-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.menu-item a {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  flex: 1;
+  color: black;
+  border-radius: 4px;
+}
+/* 
+  PRINCIPAL
+*/
+.principal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  margin: 0 150px;
+  display: inline-block;
+  /* padding: 0 100px; */
+}
+.introducao {
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+.introducao-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  padding: 40px;
+}
+.introducao-conteudo .titulo {
+  text-align: right;
+  font-size: 30px;
+}
+.introducao-conteudo p {
+  text-align: right;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.container-img {
+  background-color: #f7f7f7;
+}
+.introducao img {
+  max-width: 100%;
+  display: inline-block;
+}
+.btn {
+  /* width: 120px; */
+  align-self: end;
+  border: 0;
+  background-color: #ee2211;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 15px 20px;
+}
+.btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.vantagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+}
+.vantagens div {
+  display: grid;
+  background-color: #f7f7f7;
+  align-items: center;
+}
+.vantagens-titulo h3 {
+  font-size: 65px;
+  display: flex;
+  word-break: break-word;
+  padding: 60px;
+  color: #C6C6C6;
+  text-align: right;
+}
+.vantagens-titulo{
+  text-align: center;
+}
+.vantagens-conteudo {
+  display: grid;
+  gap: 40px;
+  margin: 60px 0;
+}
+.vantagens-conteudo li {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  background-color: #fff;
+  padding: 0 80px;
+  list-style: none;
+}
+.vantagens-conteudo img {
+  display: inline-block;
+}
+.vantagens-conteudo div {
+  background-color: #fff;
+}
+.vantagens h3 {
+  margin-bottom: 15px;
+}
+.footer{
+  padding: 30px 0;
+  margin-top: 50px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #fff;
+}
